@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.dongwei.airtest.MainActivity">
+
+    <com.example.dongwei.airtest.MyScrollView
+        android:id="@+id/myScrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <FrameLayout
+            android:id="@+id/Frame"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:id="@+id/Linear"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:background="@android:color/darker_gray"/>
+
+            <include
+                android:id="@+id/airBar"
+                layout="@layout/scroll_layout" />
+
+            <RelativeLayout
+                android:id="@+id/PM"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/textPM"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:clickable="true"
+                    android:layout_marginLeft="10dp"
+                    android:text="@string/pm"
+                    android:textSize="30dp"/>
+                <ImageView
+                    android:id="@+id/img1"
+                    android:layout_width="300dp"
+                    android:layout_height="6dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_below="@id/textPM"
+                    android:background="@drawable/background"/>
+                <TextView
+                    android:id="@+id/PM_des"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/img1"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:text="@string/pm_des"
+                    android:textSize="12dp"
+                    android:lineSpacingExtra="5dp"/>
+                <TextView
+                    android:id="@+id/PM_sug"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/PM_des"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:text="@string/pm_sug"
+                    android:textSize="12dp"
+                    android:lineSpacingExtra="3dp"/>
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_below="@id/PM_sug"
+                    android:layout_marginTop="8dp"
+                    android:background="@android:color/darker_gray"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/tVOC"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/texttVOC"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:clickable="true"
+                    android:layout_marginLeft="10dp"
+                    android:text="@string/tVOC"
+                    android:textSize="30dp"/>
+                <ImageView
+                    android:id="@+id/img2"
+                    android:layout_width="300dp"
+                    android:layout_height="6dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_below="@id/texttVOC"
+                    android:background="@drawable/background"/>
+                <TextView
+                    android:id="@+id/tVOC_des"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/img2"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:text="@string/tVOC_des"
+                    android:textSize="12dp"
+                    android:lineSpacingExtra="5dp"/>
+                <TextView
+                    android:id="@+id/tVOC_sug"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/tVOC_des"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:text="@string/tVOC_sug"
+                    android:textSize="12dp"
+                    android:lineSpacingExtra="3dp"/>
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_below="@id/tVOC_sug"
+                    android:layout_marginTop="8dp"
+                    android:background="@android:color/darker_gray"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/CO2e"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/textCO2e"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:clickable="true"
+                    android:layout_marginLeft="10dp"
+                    android:text="@string/CO2e"
+                    android:textSize="30dp"/>
+                <ImageView
+                    android:id="@+id/img3"
+                    android:layout_width="300dp"
+                    android:layout_height="6dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_below="@id/textCO2e"
+                    android:background="@drawable/background"/>
+                <TextView
+                    android:id="@+id/CO2e_des"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/img3"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:text="@string/CO2e_des"
+                    android:textSize="12dp"
+                    android:lineSpacingExtra="5dp"/>
+                <TextView
+                    android:id="@+id/CO2e_sug"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/CO2e_des"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:text="@string/CO2e_sug"
+                    android:textSize="12dp"
+                    android:lineSpacingExtra="3dp"/>
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_below="@id/CO2e_sug"
+                    android:layout_marginTop="8dp"
+                    android:background="@android:color/darker_gray"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/temperature"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/textTem"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:clickable="true"
+                    android:layout_marginLeft="10dp"
+                    android:text="@string/temperature"
+                    android:textSize="30dp"/>
+                <ImageView
+                    android:id="@+id/img4"
+                    android:layout_width="300dp"
+                    android:layout_height="6dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_below="@id/textTem"
+                    android:background="@drawable/background"/>
+                <TextView
+                    android:id="@+id/tem_des"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/img4"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:text="@string/tem_des"
+                    android:textSize="12dp"
+                    android:lineSpacingExtra="5dp"/>
+                <TextView
+                    android:id="@+id/tem_sug"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/tem_des"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:text="@string/tem_sug"
+                    android:textSize="12dp"
+                    android:lineSpacingExtra="3dp"/>
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_below="@id/tem_sug"
+                    android:layout_marginTop="8dp"
+                    android:background="@android:color/darker_gray"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/humidity"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/texthum"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="10dp"
+                    android:clickable="true"
+                    android:text="@string/humidity"
+                    android:textSize="30dp"/>
+                <ImageView
+                    android:id="@+id/img5"
+                    android:layout_width="300dp"
+                    android:layout_height="6dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_below="@id/texthum"
+                    android:background="@drawable/background"/>
+                <TextView
+                    android:id="@+id/hum_des"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/img5"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:text="@string/hum_des"
+                    android:textSize="12dp"
+                    android:lineSpacingExtra="5dp"/>
+                <TextView
+                    android:id="@+id/hum_sug"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/hum_des"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:text="@string/hum_sug"
+                    android:textSize="12dp"
+                    android:lineSpacingExtra="3dp"/>
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_below="@id/hum_sug"
+                    android:layout_marginTop="8dp"
+                    android:background="@android:color/darker_gray"/>
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+            <include
+                android:id="@+id/topBar"
+                layout="@layout/scroll_layout"/>
+
+        </FrameLayout>
+
+    </com.example.dongwei.airtest.MyScrollView>
+
+</LinearLayout>

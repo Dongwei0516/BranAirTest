@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">AirTest</string>
+    <string name="pm">PM2.5</string>
+    <string name="pm_des">空气中的PM2.5(细颗粒物)含量很高，空气污染较重，请密切关注有心血管系统和呼吸系统疾病人群的病情，对健康人群心脏、呼吸系统有影响，老人、小孩和孕妇需要格外注意防护。</string>
+    <string name="pm_sug">建议打开空气净化设备并调制最大功率。</string>
+    <string name="tVOC">tVOC</string>
+    <string name="tVOC_des">空气中的tVOC(总挥发性有机物)含量较高，在这样的环境中人会出现眼睛和喉咙不适，呼吸问题、中枢神经系统问题。</string>
+    <string name="tVOC_res">烹饪、清洁和房间内人数都会影响空气中的tVOC含量。</string>
+    <string name="tVOC_sug">建议常开窗通风，使用可取出tVOC的空气净化设备，或采取适当的治理措施。</string>
+    <string name="CO2e">CO2e</string>
+    <string name="CO2e_des">一种气体的二氧化碳当量为这种气体的吨数乘以其产生温室效应的指数。该指数取决于气体的辐射属性和分子重量，以及气体浓度随时间的变化状况。</string>
+    <string name="CO2e_sug"></string>
+    <string name="temperature">温度</string>
+    <string name="tem_des">温度（temperature）是表示物体冷热程度的物理量，微观上来讲是物体分子热运动的剧烈程度。温度只能通过物体随温度变化的某些特性来间接测量，而用来量度物体温度数值的标尺叫温标。</string>
+    <string name="tem_sug"></string>
+    <string name="hum_des">湿度，表示大气干燥程度的物理量。在一定的温度下在一定体积的空气里含有的水汽越少，则空气越干燥；水汽越多，则空气越潮湿。空气的干湿程度叫做“湿度”。</string>
+    <string name="hum_sug">人体感觉舒适的湿度是：相对湿度低于70%。</string>
+    <string name="humidity">湿度</string>
+</resources>

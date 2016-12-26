@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:id="@+id/table1"
+        android:background="@android:color/holo_purple">
+
+        <TextView
+            android:id="@+id/name1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="20dp"
+            android:text="PM2.5"
+            android:textSize="30dp"
+            android:textColor="@android:color/white"
+            />
+
+        <TextView
+            android:id="@+id/time1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/name1"
+            android:layout_marginTop="1dp"
+            android:layout_marginLeft="40dp"
+            android:text="10分钟前"
+            android:textColor="@android:color/white" />
+
+        <TextView
+            android:id="@+id/num1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="0.04"
+            android:textColor="@android:color/white"
+            android:textSize="50dp"/>
+
+        <TextView
+            android:id="@+id/level1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/name1"
+            android:text="优"
+            android:layout_marginLeft="200dp"
+            android:layout_centerVertical="true"
+            android:textColor="@android:color/white"
+            android:textSize="20dp"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:id="@+id/table2"
+        android:background="@android:color/holo_orange_light">
+
+        <TextView
+            android:id="@+id/name2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="30dp"
+            android:text="tVOC"
+            android:textSize="30dp"
+            android:textColor="@android:color/white"
+            />
+
+        <TextView
+            android:id="@+id/time2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/name2"
+            android:layout_marginTop="1dp"
+            android:layout_marginLeft="40dp"
+            android:text="10分钟前"
+            android:textColor="@android:color/white" />
+
+        <TextView
+            android:id="@+id/num2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="400"
+            android:textColor="@android:color/white"
+            android:textSize="50dp"/>
+
+        <TextView
+            android:id="@+id/level2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/name2"
+            android:text="正常"
+            android:layout_marginLeft="200dp"
+            android:layout_centerVertical="true"
+            android:textColor="@android:color/white"
+            android:textSize="20dp"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:id="@+id/table3"
+        android:background="@android:color/holo_red_light">
+
+        <TextView
+            android:id="@+id/name3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="30dp"
+            android:text="CO2e"
+            android:textSize="30dp"
+            android:textColor="@android:color/white"
+            />
+
+        <TextView
+            android:id="@+id/time3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/name3"
+            android:layout_marginTop="1dp"
+            android:layout_marginLeft="40dp"
+            android:text="10分钟前"
+            android:textColor="@android:color/white" />
+
+        <TextView
+            android:id="@+id/num3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="25"
+            android:textColor="@android:color/white"
+            android:textSize="50dp"/>
+
+        <TextView
+            android:id="@+id/level3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/name3"
+            android:text="舒适"
+            android:layout_marginLeft="200dp"
+            android:layout_centerVertical="true"
+            android:textColor="@android:color/white"
+            android:textSize="20dp"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:id="@+id/table4"
+        android:background="@android:color/holo_blue_light">
+
+        <TextView
+            android:id="@+id/name4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="40dp"
+            android:text="温度"
+            android:textSize="30dp"
+            android:textColor="@android:color/white"
+            />
+
+        <TextView
+            android:id="@+id/time4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/name4"
+            android:layout_marginTop="1dp"
+            android:layout_marginLeft="40dp"
+            android:text="10分钟前"
+            android:textColor="@android:color/white" />
+
+        <TextView
+            android:id="@+id/num4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="50"
+            android:textColor="@android:color/white"
+            android:textSize="50dp"/>
+
+        <TextView
+            android:id="@+id/level4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/name4"
+            android:text="适宜"
+            android:layout_marginLeft="200dp"
+            android:layout_centerVertical="true"
+            android:textColor="@android:color/white"
+            android:textSize="20dp"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:id="@+id/table5"
+        android:background="@android:color/holo_green_light">
+
+        <TextView
+            android:id="@+id/name5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="40dp"
+            android:text="湿度"
+            android:textSize="30dp"
+            android:textColor="@android:color/white"
+            />
+
+        <TextView
+            android:id="@+id/time5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/name5"
+            android:layout_marginTop="1dp"
+            android:layout_marginLeft="40dp"
+            android:text="10分钟前"
+            android:textColor="@android:color/white" />
+
+        <TextView
+            android:id="@+id/num5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="23"
+            android:textColor="@android:color/white"
+            android:textSize="50dp"/>
+
+        <TextView
+            android:id="@+id/level5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/name5"
+            android:text="优"
+            android:layout_marginLeft="200dp"
+            android:layout_centerVertical="true"
+            android:textColor="@android:color/white"
+            android:textSize="20dp"/>
+
+    </RelativeLayout>
+
+
+</LinearLayout>
